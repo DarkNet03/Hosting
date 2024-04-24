@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Alegreya', serif;
+font-family: 'Barlow', sans-serif;
+font-family: 'Catamaran', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Konkhmer Sleokchher', cursive;
+font-family: 'Merienda', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Rubik Pixels', cursive;
+font-family: 'Rye', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Tilt Prism', cursive;
+font-family: 'Ysabeau', sans-serif;
+}
+.box{
+    width: 300px;
+    border-right: 5px solid blueviolet;
+    text-align: center;
+    padding: 1rem;
+height: 530px;
+}
+.box-img img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.icons{
+    width: 260px;
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 1rem;
+    margin: 0.3rem;
+}
+.icons i{
+    margin-right: 5px;
+
+}
+.icons h3{
+    margin-right: 60px;
+}
+.hg{
+    margin-top: 40px;
+}
+.icons:hover{
+    color: white;
+    cursor: pointer;
+    background-color: blueviolet;
+    border-radius: 15px;
+}
+.container{
+    display: flex;
+}
+.nok{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1035px;
+    margin-top: 3px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.6);
+}
+.nok i{
+    padding: 8px 8px;
+    background-color: rgb(172, 170, 170);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.jka{
+    width: 200px;
+    color: black;
+    margin: 15px 5px;
+    padding: 9px;
+    border-radius: 10px;
+    box-shadow: 0 1px 9px -1px rgba(0,0,0,0.6);
+    transition: all 0.3s ease;
+
+}
+.wka h3{
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+.jka:hover{
+  background-color: rgb(82, 43, 118);
+  color: white;
+  cursor: pointer;
+}
+.gopt{
+   display: flex;
+   width: 1035px;
+  margin: 0 auto;
+}
+.bc{
+    padding: 0.5rem;
+    background-color: white;
+    box-shadow: 0 1px 7px -1px rgba(0,0,0,0.6);
+    width: 880px;
+
+}
+.btn{
+    padding: 12px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    /* border: 1px solid black; */
+    cursor: pointer;
+}
+.btn i{
+    margin-right: 6px;
+    border-radius: none;
+}
+.mbz{
+    padding: 1.2rem 2.3rem;
+    background-color: white;
+    box-shadow: 0 1px 7px -1px rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+}
+.turk{
+    padding: 0 0.6rem;
+}
+.mbz i{
+  font-size: 21px;
+}
+.nqa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.forget{
+    padding: 13px 0;
+    margin: 20px 0;
+    /* border: 3px solid black; */
+}
+.hab table{
+   width: 1030px; 
+   margin: 0 auto;
+   box-shadow: 0 1px 7px -1px rgba(0,0,0,0.6);
+padding: 10px 0;
+}
+.hab th{
+    font-size: 17px;
+}
+.hab td{
+    text-align: center;
+    border-top: 1px solid #000;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+.cs{
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 5px;
+}
+.csd{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(60, 255, 0);
+    border-radius: 5px;
+}
+.nd{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(235, 15, 15);
+    border-radius: 5px; 
+}
+.hab i{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  margin: 0 auto;
+}
+.bra{
+   text-align: center;
+}
+@media only screen and (max-width: 800px){
+    .gopt {
+        display: grid;
+        grid-template-columns: repeat(2, 210px);
+        margin: 0 10px;
+    }
+.nok {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    margin-top: 3px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.6);
+    position: relative;
+}
+.bc {
+    padding: 0.5rem;
+    background-color: white;
+    box-shadow: 0 1px 7px -1px rgba(0,0,0,0.6);
+    width: 350px;
+}
+.mbz {
+    padding: 1.2rem 2.3rem;
+    background-color: white;
+    box-shadow: 0 1px 7px -1px rgba(0,0,0,0.6);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+margin-bottom: 25px;
+}
+.hab table {
+    width: 400px;
+    box-shadow: 0 1px 7px -1px rgba(0,0,0,0.6);
+    padding: 1rem;
+    float: left;
+    
+}
+}
